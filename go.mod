@@ -2,7 +2,9 @@ module gin_framework_nagesh_nagansur
 
 go 1.22.1
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
